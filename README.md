@@ -1,4 +1,4 @@
-# ⚖️ Verdict AI – AI-Powered Legal Intelligence Platform
+# ⚖️ Verdict AI – AI Powered Legal Intelligence Platform
 
 Verdict AI is an end-to-end legal intelligence platform that leverages LLMs, advanced NLP, and transformer models to assist legal professionals, students, and researchers. It offers smart solutions for understanding, processing, and translating legal documents from Indian law.
 
