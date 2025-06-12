@@ -6,8 +6,6 @@ Verdict AI is an end-to-end legal intelligence platform that leverages LLMs, adv
 
 ![image](https://github.com/user-attachments/assets/cb25c185-11b3-4fe5-91d6-2c915bdc65fa)
 
---
-
 ## 🔍 Features
 
 ### 1. **Legal AI Chatbot**
