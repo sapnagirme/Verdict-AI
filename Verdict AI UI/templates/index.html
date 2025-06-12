@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VERDICT AI</title>
+    <link rel="icon" href="static/images/Verdict AI logo.png" type="image/png">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="static/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="static/css/aos.css">
+
+    <link rel="stylesheet" href="static/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="static/css/flaticon.css">
+    <link rel="stylesheet" href="static/css/icomoon.css">
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <img src="static/images/Verdict AI logo.png" alt="Legalcare Logo" style="height: 100px;">
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+			  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+			  <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+			  <li class="nav-item"><a href="#teammembers" class="nav-link">Team Members</a></li>    
+	          <li class="nav-item cta"><a href="#features" class="nav-link">Get Started</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <section id="home">
+    <div class="hero-wrap js-fullheight" style="background-image: url('static/images/bg_1.png');" >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class="col-md-6 ftco-animate">
+          	<h2 style="color: white; font-weight: bold;">
+                     Use Verdict AI for  
+                      <span id="animated-text" style="display: inline-block; transform: translateY(10px); opacity: 0; transition: transform 0.5s ease, opacity 0.5s ease;"></span>
+                      </h2>
+
+<script>
+    const texts = ["AI Legal ChatBot", "Legal Document Summarization", "Relevant Case Recommendation", "Legal Document Translator"];
+    const colors = ["#ff5733", "#33ff57", "#337aff", "Grey"]; // Add more colors if needed
+
+    let index = 0;
+    const textElement = document.getElementById("animated-text");
+
+    function changeText() {
+        textElement.style.opacity = 0;
+        textElement.style.transform = "translateY(10px)";
+        setTimeout(() => {
+            textElement.textContent = texts[index];
+            textElement.style.color = colors[index]; // Change text color
+            textElement.style.opacity = 1;
+            textElement.style.transform = "translateY(0)";
+            index = (index + 1) % texts.length;
+        }, 500);
+    }
+
+    changeText();
+    setInterval(changeText, 2000);
+</script>
+
+            <!-- <h1 class="mb-4">Attorneys Fighting For Your Freedom</h1> -->
+            <p class="mb-4">Verdict AI empowers individuals and legal professionals with fast, accurate legal insights. From legal translations to document summarization, get the legal support you need instantly.</p>
+            <p><a href="#features" class="btn btn-primary mr-md-4 py-2 px-4">Get Started <span class="ion-ios-arrow-forward"></span></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+<section id="features">
+<section class="ftco-section ftco-no-pt">
+    <div class="container">
+        <!-- Centered Heading with Inline CSS -->
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 style="font-size: 2rem; font-weight: bold; margin-bottom: 30px;">Our Features</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 services-wrap px-4 pt-5">
+                <div class="row pt-md-3">
+                    <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="services text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <i class="fas fa-robot fa-3x" style="color:#4CAF50;"></i> <!-- Green color -->
+                            </div>
+                            <div class="text">
+                                <h3>AI Legal Chatbot</h3>
+                                <p>AI legal chatbot trained on the Constitution and IPC for instant legal answers and guidance.</p>
+                            </div>
+                            <a href="https://5dc4fc97d6976f649e.gradio.live/" target="_blank" class="btn-custom d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-round-forward"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="services text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <i class="fas fa-file-alt fa-3x" style="color:#FF5722;"></i> <!-- Orange summarizer -->
+                            </div>
+                            <div class="text">
+                                <h3>Legal Document Summarization</h3>
+                                <p>AI summarizes legal documents for quick understanding of cases, judgments, and contracts.</p>
+                            </div>
+                            <a href="https://b6ea71e11682e6ef3d.gradio.live/" target="_blank" class="btn-custom d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-round-forward"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="services text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <i class="fas fa-gavel fa-3x" style="color:#DC3545;"></i> <!-- Purple case law -->
+                            </div>
+                            <div class="text">
+                                <h3>Relevant Case Recommendations</h3>
+                                <p>AI recommends relevant past cases to support legal queries and arguments.</p>
+                            </div>
+                            <a href="https://6f6fc4e68b7e322cd6.gradio.live/" target="_blank" class="btn-custom d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-round-forward"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="services text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <i class="fas fa-language fa-3x" style="color:#009688;"></i> <!-- Teal translator -->
+                            </div>
+                            <div class="text">
+                                <h3>Legal Document Translator</h3>
+                                <p>AI-based tool that translates legal documents from English to Indian languages</p>
+                            </div>
+                            <a href="https://1af7c84156a7752a03.gradio.live/" target="_blank" class="btn-custom d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-round-forward"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+</section>
+   	<section id="about">
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(static/images/about.jpg);">
+    					<a href="static/videos/Website Video.mp4" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                          <span class="icon-play"></span>
+                        </a>
+
+    				</div>
+    			</div>
+    			<div class="col-md-6 pl-md-5">
+    				<div class="row justify-content-start pt-3 pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome to Verdict AI</span>
+		            <h2 class="mb-4">Empowering Legal Decisions with AI Intelligence</h2>
+		            <p>Instant legal answers, document translation, case recommendations, and more – all powered by advanced AI trained on Indian legal documents.</p>
+		            <div class="tabulation-2 mt-4">
+									<ul class="nav nav-pills nav-fill d-md-flex d-block">
+									  <li class="nav-item mb-md-0 mb-2">
+									    <a class="nav-link active py-2" data-toggle="tab" href="#home1">Our Features</a>
+									  </li>
+									  <li class="nav-item px-lg-2 mb-md-0 mb-2">
+									    <a class="nav-link py-2" data-toggle="tab" href="#home2">How It Works</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home3">Why Choose Us</a>
+									  </li>
+									</ul>
+									<div class="tab-content bg-light rounded mt-2">
+									  <div class="tab-pane container p-0 active" id="home1">
+									  	<p>Legal Chatbot, Document Summarizer, Case Recommendations, Document Translator.</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home2">
+									  	<p>Upload documents, ask questions, get instant AI-driven legal insights.</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home3">
+									  	<p>Accurate, Fast, Multilingual support for Indian legal your needs.</p>
+									  </div>
+									</div>
+								</div>
+		            
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+    </section>
+<!-- Include Google Fonts in your <head> -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+<section id="about" class="ftco-section">
+  <section style="background: #fff; padding: 60px 20px; color: #333; font-family: 'Poppins', 'Segoe UI', sans-serif; border-radius: 25px;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <h2 style="font-size: 36px; margin: 20px 0 10px; color: #000000; font-weight: 800; letter-spacing: -0.5px;">
+        <span class="subheading">Who is Verdict AI for?</span>
+      </h2>
+      <p style="max-width: 800px; margin: 0 auto; font-size: 20px; color: #555; font-weight: 600; line-height: 1.6;">
+        Explore AI-powered tools built to streamline your legal workflow. From summarizing legal documents to recommending relevant case laws — we handle the hard work, so you can focus on strategy.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+      <style>
+        .card-hover {
+          background-color: #AFA939;
+          padding: 30px;
+          border-radius: 20px;
+          width: 260px;
+          color: white;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .card-hover:hover {
+          background-color: #8f8a30;
+          transform: translateY(-5px);
+          cursor: pointer;
+        }
+
+        .card-hover h3 {
+          margin-bottom: 10px;
+          color: white;
+          font-weight: 700;
+        }
+
+        .card-hover p {
+          color: #ffffffcc;
+          font-weight: 600;
+        }
+      </style>
+
+      <div class="card-hover">
+        <h3>Lawyers & Legal Professionals</h3>
+        <p>Save time on legal research with document summarization and case recommendations.</p>
+      </div>
+
+      <div class="card-hover">
+        <h3>Law Students & Researchers</h3>
+        <p>Quickly understand complex legal texts using the summarizer.</p>
+      </div>
+
+      <div class="card-hover">
+        <h3>Citizens & Litigants</h3>
+        <p>Ask legal questions in plain language and get AI-guided answers.</p>
+      </div>
+
+      <div class="card-hover">
+        <h3>Corporate Legal Teams</h3>
+        <p>Review and understand contracts or compliance documents rapidly.</p>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+
+
+  <!-- ======= Team Section ======= -->
+
+<!-- Bootstrap Icons CDN (add in <head> section) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<section id="teammembers" class="doctors section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title text-center">
+      <h2>Team Members</h2>
+    </div>
+
+    <div class="row justify-content-center">
+
+      <!-- Member 1 -->
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-img">
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/female-entrepreneur-774607.png?f=webp" class="img-fluid" alt="Sapna Girme">
+            <div class="social">
+              <a href="https://github.com/sapnagirme" target="_blank"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/sapna-girme-3961a523b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Sapna Girme</h4>
+            <span>M.Sc. Data Science & Big Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-img">
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/businesswoman-76-774606.png?f=webp" class="img-fluid" alt="Jomy Mathew">
+            <div class="social">
+              <a href="https://github.com/Jo-Mathew" target="_blank"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/jomy-mathew-596033286/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Jomy Mathew</h4>
+            <span>M.Sc. Data Science & Big Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .section-bg {
+      background: #f9f9f9;
+      padding: 60px 0;
+    }
+
+    .member {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+      text-align: center;
+      padding: 30px 20px;
+      transition: 0.3s;
+      position: relative;
+    }
+
+    .member:hover {
+      transform: translateY(-10px);
+    }
+
+    .member-img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 15px auto;
+    }
+
+    .member-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .member .social {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.95);
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      opacity: 1;
+      transition: 0.3s;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+    }
+
+    .member .social a i {
+      font-size: 20px;
+      color: #1a1a1a;
+      transition: color 0.3s;
+    }
+
+    .member .social a:hover i {
+      color: #0d6efd; /* Bootstrap blue */
+    }
+
+    .member-info h4 {
+      font-weight: 700;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+
+    .member-info span {
+      font-size: 14px;
+      color: #6c757d;
+    }
+  </style>
+</section>
+
+
+
+		
+
+		
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="logo"><a href="#">Verdict AI <span>AI Powered Legal Intelligence Platform</span></a></h2>
+              <p>Verdict AI empowers individuals and legal professionals with fast, accurate legal insights.</p>
+             
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Features</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://5dc4fc97d6976f649e.gradio.live/" target="_blank" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Legal AI Chatbot</a></li>
+                <li><a href="https://b6ea71e11682e6ef3d.gradio.live/" target="_blank" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Legal Document Summarization</a></li>
+                <li><a href="https://6f6fc4e68b7e322cd6.gradio.live/" target="_blank" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Relevant Case Recommendation</a></li>
+                <li><a href="https://1af7c84156a7752a03.gradio.live/" target="_blank" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Legal Document Translator</a></li>
+             
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	             
+	                <li><a href="#teammembers"><span class=""></span><span class="text">Linkedin</span></a></li>
+	                <li><a href="#teammembers"><span class=""></span><span class="text">Github</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+          
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery.easing.1.3.js"></script>
+  <script src="static/js/jquery.waypoints.min.js"></script>
+  <script src="static/js/jquery.stellar.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/js/aos.js"></script>
+  <script src="static/js/jquery.animateNumber.min.js"></script>
+  <script src="static/js/scrollax.min.js"></script>
+  <script src="static/js/main.js"></script>
+    <script>
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        navLinks.forEach(nav => nav.parentElement.classList.remove('active'));
+        this.parentElement.classList.add('active');
+      });
+    });
+  </script>
+  </body>
+</html>
