@@ -42,3 +42,14 @@ Verdict AI is an end-to-end legal intelligence platform that leverages LLMs, adv
 
 ---
 
+### 📽️ Project Demo Video
+
+This demo video walks through all four features of Verdict AI:  
+1. Legal AI Chatbot
+2. Legal Document Summarization
+3. Relevant Case Law Recommendation
+4. Legal Document Translator
+
+📂 Video Location: `Verdict AI UI/static/videos/Website Video.mp4`
+
+> 📌 The video is embedded in the `index.html` UI. You can also view it by opening the HTML file locally.
